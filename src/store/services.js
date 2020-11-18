@@ -1,4 +1,9 @@
 import axios from "axios"
+const plugin = axios.create({
+  baseURL:
+    "https://crowdbotics-slack-dev.herokuapp.com/dashboard/app/7307/storyboard/8491/",
+  headers: { Accept: "application/json", "Content-Type": "application/json" }
+})
 const mobilenovAPI = axios.create({
   baseURL: "https://mobile-18-nov-dev-15257.botics.co/",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
@@ -18,6 +23,66 @@ function api_v1_customtext_partial_update(action) {
   return mobilenovAPI.patch(`/api/v1/customtext/${action.id}/`, null, {
     data: action.data
   })
+}
+function api_v1_hgkhgj_list(action) {
+  return mobilenovAPI.get(`/api/v1/hgkhgj/`)
+}
+function api_v1_hgkhgj_create(action) {
+  return mobilenovAPI.post(`/api/v1/hgkhgj/`, null, { data: action.data })
+}
+function api_v1_hgkhgj_read(action) {
+  return mobilenovAPI.get(`/api/v1/hgkhgj/${action.id}/`)
+}
+function api_v1_hgkhgj_update(action) {
+  return mobilenovAPI.put(`/api/v1/hgkhgj/${action.id}/`, null, {
+    data: action.data
+  })
+}
+function api_v1_hgkhgj_partial_update(action) {
+  return mobilenovAPI.patch(`/api/v1/hgkhgj/${action.id}/`, null, {
+    data: action.data
+  })
+}
+function api_v1_hgkhgj_delete(action) {
+  return mobilenovAPI.delete(`/api/v1/hgkhgj/${action.id}/`)
+}
+function api_v1_hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads_list(action) {
+  return mobilenovAPI.get(
+    `/api/v1/hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads/`
+  )
+}
+function api_v1_hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads_create(action) {
+  return mobilenovAPI.post(
+    `/api/v1/hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads/`,
+    null,
+    { data: action.data }
+  )
+}
+function api_v1_hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads_read(action) {
+  return mobilenovAPI.get(
+    `/api/v1/hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads/${action.id}/`
+  )
+}
+function api_v1_hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads_update(action) {
+  return mobilenovAPI.put(
+    `/api/v1/hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads/${action.id}/`,
+    null,
+    { data: action.data }
+  )
+}
+function api_v1_hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads_partial_update(
+  action
+) {
+  return mobilenovAPI.patch(
+    `/api/v1/hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads/${action.id}/`,
+    null,
+    { data: action.data }
+  )
+}
+function api_v1_hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads_delete(action) {
+  return mobilenovAPI.delete(
+    `/api/v1/hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads/${action.id}/`
+  )
 }
 function api_v1_homepage_list(action) {
   return mobilenovAPI.get(`/api/v1/homepage/`)
@@ -89,6 +154,18 @@ export const apiService = {
   api_v1_customtext_read,
   api_v1_customtext_update,
   api_v1_customtext_partial_update,
+  api_v1_hgkhgj_list,
+  api_v1_hgkhgj_create,
+  api_v1_hgkhgj_read,
+  api_v1_hgkhgj_update,
+  api_v1_hgkhgj_partial_update,
+  api_v1_hgkhgj_delete,
+  api_v1_hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads_list,
+  api_v1_hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads_create,
+  api_v1_hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads_read,
+  api_v1_hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads_update,
+  api_v1_hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads_partial_update,
+  api_v1_hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads_delete,
   api_v1_homepage_list,
   api_v1_homepage_read,
   api_v1_homepage_update,

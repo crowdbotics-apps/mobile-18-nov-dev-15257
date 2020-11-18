@@ -28,6 +28,78 @@ export default function apiReducer(state = initialState, action) {
       return Object.assign({}, state, {
         mobilenovAPI: [...state.mobilenovAPI, action.response]
       })
+    case types.API_V1_HGKHGJ_LIST:
+    case types.API_V1_HGKHGJ_LIST_SUCCEEDED:
+    case types.API_V1_HGKHGJ_LIST_FAILED:
+      return Object.assign({}, state, {
+        mobilenovAPI: [...state.mobilenovAPI, action.response]
+      })
+    case types.API_V1_HGKHGJ_CREATE:
+    case types.API_V1_HGKHGJ_CREATE_SUCCEEDED:
+    case types.API_V1_HGKHGJ_CREATE_FAILED:
+      return Object.assign({}, state, {
+        mobilenovAPI: [...state.mobilenovAPI, action.response]
+      })
+    case types.API_V1_HGKHGJ_READ:
+    case types.API_V1_HGKHGJ_READ_SUCCEEDED:
+    case types.API_V1_HGKHGJ_READ_FAILED:
+      return Object.assign({}, state, {
+        mobilenovAPI: [...state.mobilenovAPI, action.response]
+      })
+    case types.API_V1_HGKHGJ_UPDATE:
+    case types.API_V1_HGKHGJ_UPDATE_SUCCEEDED:
+    case types.API_V1_HGKHGJ_UPDATE_FAILED:
+      return Object.assign({}, state, {
+        mobilenovAPI: [...state.mobilenovAPI, action.response]
+      })
+    case types.API_V1_HGKHGJ_PARTIAL_UPDATE:
+    case types.API_V1_HGKHGJ_PARTIAL_UPDATE_SUCCEEDED:
+    case types.API_V1_HGKHGJ_PARTIAL_UPDATE_FAILED:
+      return Object.assign({}, state, {
+        mobilenovAPI: [...state.mobilenovAPI, action.response]
+      })
+    case types.API_V1_HGKHGJ_DELETE:
+    case types.API_V1_HGKHGJ_DELETE_SUCCEEDED:
+    case types.API_V1_HGKHGJ_DELETE_FAILED:
+      return Object.assign({}, state, {
+        mobilenovAPI: [...state.mobilenovAPI, action.response]
+      })
+    case types.API_V1_HLKGFDGFGFGDGFDGFDTRRERERTERSDADSDADSADSADS_LIST:
+    case types.API_V1_HLKGFDGFGFGDGFDGFDTRRERERTERSDADSDADSADSADS_LIST_SUCCEEDED:
+    case types.API_V1_HLKGFDGFGFGDGFDGFDTRRERERTERSDADSDADSADSADS_LIST_FAILED:
+      return Object.assign({}, state, {
+        mobilenovAPI: [...state.mobilenovAPI, action.response]
+      })
+    case types.API_V1_HLKGFDGFGFGDGFDGFDTRRERERTERSDADSDADSADSADS_CREATE:
+    case types.API_V1_HLKGFDGFGFGDGFDGFDTRRERERTERSDADSDADSADSADS_CREATE_SUCCEEDED:
+    case types.API_V1_HLKGFDGFGFGDGFDGFDTRRERERTERSDADSDADSADSADS_CREATE_FAILED:
+      return Object.assign({}, state, {
+        mobilenovAPI: [...state.mobilenovAPI, action.response]
+      })
+    case types.API_V1_HLKGFDGFGFGDGFDGFDTRRERERTERSDADSDADSADSADS_READ:
+    case types.API_V1_HLKGFDGFGFGDGFDGFDTRRERERTERSDADSDADSADSADS_READ_SUCCEEDED:
+    case types.API_V1_HLKGFDGFGFGDGFDGFDTRRERERTERSDADSDADSADSADS_READ_FAILED:
+      return Object.assign({}, state, {
+        mobilenovAPI: [...state.mobilenovAPI, action.response]
+      })
+    case types.API_V1_HLKGFDGFGFGDGFDGFDTRRERERTERSDADSDADSADSADS_UPDATE:
+    case types.API_V1_HLKGFDGFGFGDGFDGFDTRRERERTERSDADSDADSADSADS_UPDATE_SUCCEEDED:
+    case types.API_V1_HLKGFDGFGFGDGFDGFDTRRERERTERSDADSDADSADSADS_UPDATE_FAILED:
+      return Object.assign({}, state, {
+        mobilenovAPI: [...state.mobilenovAPI, action.response]
+      })
+    case types.API_V1_HLKGFDGFGFGDGFDGFDTRRERERTERSDADSDADSADSADS_PARTIAL_UPDATE:
+    case types.API_V1_HLKGFDGFGFGDGFDGFDTRRERERTERSDADSDADSADSADS_PARTIAL_UPDATE_SUCCEEDED:
+    case types.API_V1_HLKGFDGFGFGDGFDGFDTRRERERTERSDADSDADSADSADS_PARTIAL_UPDATE_FAILED:
+      return Object.assign({}, state, {
+        mobilenovAPI: [...state.mobilenovAPI, action.response]
+      })
+    case types.API_V1_HLKGFDGFGFGDGFDGFDTRRERERTERSDADSDADSADSADS_DELETE:
+    case types.API_V1_HLKGFDGFGFGDGFDGFDTRRERERTERSDADSDADSADSADS_DELETE_SUCCEEDED:
+    case types.API_V1_HLKGFDGFGFGDGFDGFDTRRERERTERSDADSDADSADSADS_DELETE_FAILED:
+      return Object.assign({}, state, {
+        mobilenovAPI: [...state.mobilenovAPI, action.response]
+      })
     case types.API_V1_HOMEPAGE_LIST:
     case types.API_V1_HOMEPAGE_LIST_SUCCEEDED:
     case types.API_V1_HOMEPAGE_LIST_FAILED:

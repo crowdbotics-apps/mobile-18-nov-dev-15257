@@ -356,3 +356,200 @@ export const rest_auth_user_partial_updateFailed = (error, starter) => ({
   error,
   starter
 })
+export const api_v1_hgkhgj_list = () => ({ type: types.API_V1_HGKHGJ_LIST })
+export const api_v1_hgkhgj_listSucceeded = (response, starter) => ({
+  type: types.API_V1_HGKHGJ_LIST_SUCCEEDED,
+  response,
+  starter
+})
+export const api_v1_hgkhgj_listFailed = (error, starter) => ({
+  type: types.API_V1_HGKHGJ_LIST_FAILED,
+  error,
+  starter
+})
+export const api_v1_hgkhgj_create = data => ({
+  type: types.API_V1_HGKHGJ_CREATE,
+  data
+})
+export const api_v1_hgkhgj_createSucceeded = (response, starter) => ({
+  type: types.API_V1_HGKHGJ_CREATE_SUCCEEDED,
+  response,
+  starter
+})
+export const api_v1_hgkhgj_createFailed = (error, starter) => ({
+  type: types.API_V1_HGKHGJ_CREATE_FAILED,
+  error,
+  starter
+})
+export const api_v1_hgkhgj_read = () => ({ type: types.API_V1_HGKHGJ_READ })
+export const api_v1_hgkhgj_readSucceeded = (response, starter) => ({
+  type: types.API_V1_HGKHGJ_READ_SUCCEEDED,
+  response,
+  starter
+})
+export const api_v1_hgkhgj_readFailed = (error, starter) => ({
+  type: types.API_V1_HGKHGJ_READ_FAILED,
+  error,
+  starter
+})
+export const api_v1_hgkhgj_update = data => ({
+  type: types.API_V1_HGKHGJ_UPDATE,
+  data
+})
+export const api_v1_hgkhgj_updateSucceeded = (response, starter) => ({
+  type: types.API_V1_HGKHGJ_UPDATE_SUCCEEDED,
+  response,
+  starter
+})
+export const api_v1_hgkhgj_updateFailed = (error, starter) => ({
+  type: types.API_V1_HGKHGJ_UPDATE_FAILED,
+  error,
+  starter
+})
+export const api_v1_hgkhgj_partial_update = data => ({
+  type: types.API_V1_HGKHGJ_PARTIAL_UPDATE,
+  data
+})
+export const api_v1_hgkhgj_partial_updateSucceeded = (response, starter) => ({
+  type: types.API_V1_HGKHGJ_PARTIAL_UPDATE_SUCCEEDED,
+  response,
+  starter
+})
+export const api_v1_hgkhgj_partial_updateFailed = (error, starter) => ({
+  type: types.API_V1_HGKHGJ_PARTIAL_UPDATE_FAILED,
+  error,
+  starter
+})
+export const api_v1_hgkhgj_delete = () => ({ type: types.API_V1_HGKHGJ_DELETE })
+export const api_v1_hgkhgj_deleteSucceeded = (response, starter) => ({
+  type: types.API_V1_HGKHGJ_DELETE_SUCCEEDED,
+  response,
+  starter
+})
+export const api_v1_hgkhgj_deleteFailed = (error, starter) => ({
+  type: types.API_V1_HGKHGJ_DELETE_FAILED,
+  error,
+  starter
+})
+export const api_v1_hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads_list = () => ({
+  type: types.API_V1_HLKGFDGFGFGDGFDGFDTRRERERTERSDADSDADSADSADS_LIST
+})
+export const api_v1_hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads_listSucceeded = (
+  response,
+  starter
+) => ({
+  type: types.API_V1_HLKGFDGFGFGDGFDGFDTRRERERTERSDADSDADSADSADS_LIST_SUCCEEDED,
+  response,
+  starter
+})
+export const api_v1_hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads_listFailed = (
+  error,
+  starter
+) => ({
+  type: types.API_V1_HLKGFDGFGFGDGFDGFDTRRERERTERSDADSDADSADSADS_LIST_FAILED,
+  error,
+  starter
+})
+export const api_v1_hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads_create = data => ({
+  type: types.API_V1_HLKGFDGFGFGDGFDGFDTRRERERTERSDADSDADSADSADS_CREATE,
+  data
+})
+export const api_v1_hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads_createSucceeded = (
+  response,
+  starter
+) => ({
+  type:
+    types.API_V1_HLKGFDGFGFGDGFDGFDTRRERERTERSDADSDADSADSADS_CREATE_SUCCEEDED,
+  response,
+  starter
+})
+export const api_v1_hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads_createFailed = (
+  error,
+  starter
+) => ({
+  type: types.API_V1_HLKGFDGFGFGDGFDGFDTRRERERTERSDADSDADSADSADS_CREATE_FAILED,
+  error,
+  starter
+})
+export const api_v1_hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads_read = () => ({
+  type: types.API_V1_HLKGFDGFGFGDGFDGFDTRRERERTERSDADSDADSADSADS_READ
+})
+export const api_v1_hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads_readSucceeded = (
+  response,
+  starter
+) => ({
+  type: types.API_V1_HLKGFDGFGFGDGFDGFDTRRERERTERSDADSDADSADSADS_READ_SUCCEEDED,
+  response,
+  starter
+})
+export const api_v1_hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads_readFailed = (
+  error,
+  starter
+) => ({
+  type: types.API_V1_HLKGFDGFGFGDGFDGFDTRRERERTERSDADSDADSADSADS_READ_FAILED,
+  error,
+  starter
+})
+export const api_v1_hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads_update = data => ({
+  type: types.API_V1_HLKGFDGFGFGDGFDGFDTRRERERTERSDADSDADSADSADS_UPDATE,
+  data
+})
+export const api_v1_hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads_updateSucceeded = (
+  response,
+  starter
+) => ({
+  type:
+    types.API_V1_HLKGFDGFGFGDGFDGFDTRRERERTERSDADSDADSADSADS_UPDATE_SUCCEEDED,
+  response,
+  starter
+})
+export const api_v1_hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads_updateFailed = (
+  error,
+  starter
+) => ({
+  type: types.API_V1_HLKGFDGFGFGDGFDGFDTRRERERTERSDADSDADSADSADS_UPDATE_FAILED,
+  error,
+  starter
+})
+export const api_v1_hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads_partial_update = data => ({
+  type: types.API_V1_HLKGFDGFGFGDGFDGFDTRRERERTERSDADSDADSADSADS_PARTIAL_UPDATE,
+  data
+})
+export const api_v1_hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads_partial_updateSucceeded = (
+  response,
+  starter
+) => ({
+  type:
+    types.API_V1_HLKGFDGFGFGDGFDGFDTRRERERTERSDADSDADSADSADS_PARTIAL_UPDATE_SUCCEEDED,
+  response,
+  starter
+})
+export const api_v1_hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads_partial_updateFailed = (
+  error,
+  starter
+) => ({
+  type:
+    types.API_V1_HLKGFDGFGFGDGFDGFDTRRERERTERSDADSDADSADSADS_PARTIAL_UPDATE_FAILED,
+  error,
+  starter
+})
+export const api_v1_hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads_delete = () => ({
+  type: types.API_V1_HLKGFDGFGFGDGFDGFDTRRERERTERSDADSDADSADSADS_DELETE
+})
+export const api_v1_hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads_deleteSucceeded = (
+  response,
+  starter
+) => ({
+  type:
+    types.API_V1_HLKGFDGFGFGDGFDGFDTRRERERTERSDADSDADSADSADS_DELETE_SUCCEEDED,
+  response,
+  starter
+})
+export const api_v1_hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads_deleteFailed = (
+  error,
+  starter
+) => ({
+  type: types.API_V1_HLKGFDGFGFGDGFDGFDTRRERERTERSDADSDADSADSADS_DELETE_FAILED,
+  error,
+  starter
+})
