@@ -44,6 +44,12 @@ export default class Blank extends React.Component {
         style={styles.Button_4}
         onPress={() => alert("Pressed!")}
       />
+      <Button
+        title="Press me!"
+        color="#ddff33"
+        style={styles.Button_5}
+        onPress={() => alert("Pressed!")}
+      />
     </View>
   )
 }
@@ -52,6 +58,21 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     marginHorizontal: 16
+  },
+
+  View_1: {},
+  Button_2: { width: 100, alignSelf: "center" },
+  Button_3: {
+    width: 100,
+    textDecorationLine: "underline overline",
+    textTransform: "capitalize"
+  },
+
+  Button_4: {
+    width: 100,
+    alignSelf: "flex-end",
+    textDecorationLine: "line-through",
+    textTransform: "uppercase"
   },
   View_1: {},
   Button_2: { width: 100, alignSelf: "center" },
@@ -65,5 +86,6 @@ const styles = StyleSheet.create({
     alignSelf: "flex-end",
     textDecorationLine: "line-through",
     textTransform: "uppercase"
-  }
+  },
+  Button_5: { width: 100, textTransform: "uppercase" }
 })
