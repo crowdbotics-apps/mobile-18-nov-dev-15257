@@ -32,6 +32,7 @@ export default class Blank extends React.Component {
         value={this.state.TextInput_2}
         onChangeText={nextValue => this.setState({ TextInput_2: nextValue })}
       />
+      <Text>Sample text content</Text>
     </View>
   )
 }
@@ -41,6 +42,10 @@ const styles = StyleSheet.create({
     flex: 1,
     marginHorizontal: 16
   },
+
   View_1: {},
-  TextInput_2: {}
+  TextInput_2: {},
+  View_1: {},
+  TextInput_2: {},
+  Text_3: {}
 })
