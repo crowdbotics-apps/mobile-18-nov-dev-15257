@@ -27,7 +27,6 @@ export default class Blank extends React.Component {
 
   render = () => (
     <View>
-      <Text style={styles.Text_2}>Sample text content</Text>
       <Button
         title="Press me!"
         style={styles.Button_3}
@@ -36,7 +35,7 @@ export default class Blank extends React.Component {
       <Text>Sample text content</Text>
       <TextInput
         placeholder="Sample text input placeholder"
-        multiline={true}
+        style={styles.TextInput_5}
         value={this.state.TextInput_5}
         onChangeText={nextValue => this.setState({ TextInput_5: nextValue })}
       />
@@ -49,6 +48,7 @@ const styles = StyleSheet.create({
     flex: 1,
     marginHorizontal: 16
   },
+
   View_1: {},
   Text_2: {
     width: 100,
@@ -63,7 +63,12 @@ const styles = StyleSheet.create({
     lineHeight: 27,
     letterSpacing: 38
   },
+
   Button_3: { width: 100, height: 30, lineHeight: 29, letterSpacing: 23 },
   Text_4: {},
-  TextInput_5: {}
+  TextInput_5: {},
+  View_1: {},
+  Button_3: { width: 100, height: 30, lineHeight: 29, letterSpacing: 23 },
+  Text_4: {},
+  TextInput_5: { height: 100 }
 })
