@@ -6,22 +6,38 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('home', '0004_remove_customtext_wsdfwsaz'),
+        ("home", "0004_remove_customtext_wsdfwsaz"),
     ]
 
     operations = [
         migrations.CreateModel(
-            name='Hgkhgj',
+            name="Hgkhgj",
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('hgfjhfgjhgfjhgfjhgfruyr', models.BigIntegerField()),
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("hgfjhfgjhgfjhgfjhgfruyr", models.BigIntegerField()),
             ],
         ),
         migrations.CreateModel(
-            name='Hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads',
+            name="Hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads",
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('j598090980980980989080980845654', models.BigIntegerField()),
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("j598090980980980989080980845654", models.BigIntegerField()),
             ],
         ),
     ]
