@@ -1,10 +1,10 @@
 from rest_framework import viewsets
 from rest_framework import authentication
 from .serializers import (
-    HlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsadsSerializer,
-    HgkhgjSerializer,
-    HomePageSerializer,
     CustomTextSerializer,
+    HgkhgjSerializer,
+    HlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsadsSerializer,
+    HomePageSerializer,
 )
 from rest_framework.authentication import SessionAuthentication, TokenAuthentication
 from rest_framework.authtoken.serializers import AuthTokenSerializer
@@ -20,10 +20,10 @@ from home.api.v1.serializers import (
     UserSerializer,
 )
 from home.models import (
-    Hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads,
-    Hgkhgj,
-    HomePage,
     CustomText,
+    Hgkhgj,
+    Hlkgfdgfgfgdgfdgfdtrrerertersdadsdadsadsads,
+    HomePage,
 )
 
 
